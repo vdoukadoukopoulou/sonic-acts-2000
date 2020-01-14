@@ -4,10 +4,14 @@ Intiall attempt into piecing together a sonic acts website using infromation fro
 
 To assemble the website, this attempt makes use of the [Wayback Machine Downloader](https://github.com/hartator/wayback-machine-downloader)
 
-it is  good to remember that Wayback Machine, archives sites incrementally, so if you have have to check when a page was archived, do another download request and then assemble the website manually.
+it is  good to remember that Wayback Machine, archives sites incrementally, so if you have have to check when a page was archived by looking into the timestamp , do another download request and then assemble the website manually.
+timestamps appear on the webarchive URL formatted as YYYYMMDD (YEARMONTHDATE) followed by the site URL
+
+Example:
 
 `https://web.archive.org/web/20011221121908/http://www.interfaculty.nl/sonicacts.com/00/index.html`
 
+So in this example, http://www.interfaculty.nl/sonicacts.com/00/index.html was archive on 2001/11/22 
 
 To navigate the website please click the blocks of the space invader gif
 published at https://vdoukadoukopoulou.github.io/sonic-acts-2000/
