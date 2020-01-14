@@ -11,7 +11,7 @@ Example:
 
 `https://web.archive.org/web/20011221121908/http://www.interfaculty.nl/sonicacts.com/00/index.html`
 
-So in this example, http://www.interfaculty.nl/sonicacts.com/00/index.html was archive on 2001/11/22 
+So in this example, `http://www.interfaculty.nl/sonicacts.com/00/index.html` was archive on 2001/11/22 
 
 To navigate the website please click the blocks of the space invader gif
 published at https://vdoukadoukopoulou.github.io/sonic-acts-2000/
