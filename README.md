@@ -19,7 +19,7 @@ published at https://vdoukadoukopoulou.github.io/sonic-acts-2000/
 
 when confronted with a lot of individual paths to image files make an automate bash script to speed up the process.
 collect all the relevant url from the capture form info
-make a `.sh file`
+make a `script.sh file`
 
 ``` shell
 #!/bin/bash
@@ -31,3 +31,10 @@ for i in "${url[@]}"; do
 wayback_machine_downloader $i
 done
 ``` 
+to run the bash script refer to the terminal and execute 
+`~/path/to/folder/script.sh`
+
+normally you can't run scripts from the terminal. so you need to give your self executive powers
+`chown 755 ~/path/to/file/script.sh`
+
+everytime you make a new script you need to also give it the power!
