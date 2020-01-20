@@ -21,11 +21,11 @@ when confronted with a lot of individual paths to image files make an automate b
 collect all the relevant url from the capture form info
 make a `.sh file`
 
-````````#!/bin/bash
+```#!/bin/bash
 url=('http://www.individuallink/here/picture.jpg'
 'http://www.individuallink/here/picture.jpg'
 'http://www.individuallink/here/picture.jpg')
 
 for i in "${url[@]}"; do
 wayback_machine_downloader $i
-done````````
+done
